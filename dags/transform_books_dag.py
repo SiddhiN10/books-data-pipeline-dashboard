@@ -13,10 +13,10 @@ default_args = {
     'retry_delay': timedelta(minutes=5),
 }
 
-server = 'openlibraryserver.database.windows.net'
-database = 'openlibrarydb'
-username = 'openadmin'
-password = 'IllumiHisoka@1302'
+server = 'yourservername'
+database = 'yourdbname'
+username = 'yourusername'
+password = 'yourpassword'
 driver = '{ODBC Driver 17 for SQL Server}'
 
 
