@@ -5,10 +5,10 @@ from airflow.operators.python import PythonOperator
 from datetime import datetime
 
 # Azure SQL Connection parameters (replace with Airflow connection if needed)
-server = 'openlibraryserver.database.windows.net'
-database = 'openlibrarydb'
-username = 'openadmin'
-password = 'IllumiHisoka@1302'
+server = 'yourservername'
+database = 'yourdbname'
+username = 'yourUsername'
+password = 'YourPassword'
 driver = '{ODBC Driver 17 for SQL Server}'
 
 
